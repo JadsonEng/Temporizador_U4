@@ -1,21 +1,21 @@
-#Jadson de Jesus Santos - Tarefa de Clock e Temporizadores: Semáforo
+# Jadson de Jesus Santos - Tarefa de Clock e Temporizadores: Semáforo
 
-📚 ##Apresentação
+## 📚 Apresentação
 
 Este projeto implementa um sistema de semáforo utilizando o Raspberry Pi Pico W SDK no VSCode e o simulador Wokwi Online, que foi integrado ao VSCode. 
 O código foi desenvolvido utilizando a API de hardware de temporização repetitiva para alternar automaticamente entre os LEDs representando os sinais de trânsito.
 
-🎯 ##Objetivo
+## 🎯 Objetivo
 
 Compreender o funcionamento do temporizador fornecido pela API de Hardware add_repeating_timer_ms
 
-📑 ##Requisitos
+## 📑 Requisitos
 
 - Visual Studio Code;
 - Extensões C/C++, CMAKE e Raspberry Pi Pico no VSCode;
 - Simulador Wokwi Online.
 
-📋 ##Funcionamento
+## 📋 Funcionamento
 
 - A API de Hardware chama a função callback que executa o acionamento dos LEDs;
 - O acionamento dos LEDs ocorre por meio de uma função de repetição, de forma assíncrona;
@@ -23,3 +23,6 @@ Compreender o funcionamento do temporizador fornecido pela API de Hardware add_r
 - Vermelho: "Stop!"
 - Amarelo: "Attention!"
 - Verde: "Go!"
+
+## 📷 GIF Ilustrativo
+![Semaforo](https://github.com/user-attachments/assets/a78f953b-fc23-4022-83ec-1eb036c00915)
